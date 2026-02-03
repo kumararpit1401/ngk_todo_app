@@ -172,7 +172,7 @@ The AI creates personalized emails that include:
 ## Troubleshooting
 
 ### "GEMINI_API_KEY not configured"
-- Make sure you've created a `.env` file (not `.env.example`)
+- Make sure you've created a `.env` file 
 - Verify your API key is correct
 - Check that `.env` is in the same directory as `app.py`
 
@@ -199,27 +199,5 @@ The AI creates personalized emails that include:
    - Complex task breakdown using AI
  **Security**: API key not in source code (uses .env)
 
-## Academic Integrity
-
-This project is submitted as part of an academic assignment. The code demonstrates:
-- Database design and CRUD operations
-- API integration (Gemini AI)
-- Email functionality
-- Modern web UI with Streamlit
-- Environment-based configuration
-
-## License
-
-This project is created for educational purposes as part of an academic assignment.
-
-## Support
-
-If you encounter any issues:
-1. Check the Troubleshooting section
-2. Verify all dependencies are installed
-3. Ensure your `.env` file is properly configured
-4. Check Python version compatibility (3.8+)
-
----
 
 **Built using Streamlit, SQLite, and Google Gemini AI**
